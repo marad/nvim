@@ -1,5 +1,5 @@
-" This is Marcin Radoszewski's .vimrc file
-" See other dotfiles at https://github.com/marad/nvim
+" This is Marcin Radoszewski's nvim config
+" https://github.com/marad/nvim
 
 source ~/.config/nvim/config/plugins.vim
 
