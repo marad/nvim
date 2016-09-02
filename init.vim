@@ -1,6 +1,9 @@
 " This is Marcin Radoszewski's nvim config
 " https://github.com/marad/nvim
 
+source ~/.config/nvim/config/plugin/lightline.vim
+source ~/.config/nvim/config/plugin/rainbow.vim
+
 source ~/.config/nvim/config/plugins.vim
 
 " Basic configuration
@@ -13,8 +16,6 @@ if has('gui_running')
 else
     source ~/.config/nvim/config/terminal.vim
 endif
-
-source ~/.config/nvim/config/plugin/lightline.vim
 
 " Auto trim trailing whitespace on save
 autocmd BufWritePre *.md :%s/\s\+$//e
